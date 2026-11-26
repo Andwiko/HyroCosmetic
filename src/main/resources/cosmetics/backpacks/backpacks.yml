@@ -1,0 +1,126 @@
+# ==========================================================
+#         HYROCOSMETICS - BACKPACKS (TAS PUNGGUNG)
+# ==========================================================
+
+cosmetics:
+  tactical_backpack:
+    type: BACKPACK
+    display_name: "&a&lRansel Militer Taktis"
+    material: "CHEST"
+    lore:
+      - "&7Tas ransel survival militer berkapasitas"
+      - "&7besar dengan kantong amunisi."
+    price: 3000.0
+    permission: "hyrocosmetics.backpack.tactical"
+
+  sci_fi_jetpack:
+    type: BACKPACK
+    display_name: "&c&lJetpack Sci-Fi"
+    material: "SHULKER_BOX"
+    lore:
+      - "&7Mesin pendorong jetpack berteknologi"
+      - "&7tinggi di punggung Anda."
+    price: 7500.0
+    permission: "hyrocosmetics.backpack.jetpack"
+
+  quiver:
+    type: BACKPACK
+    display_name: "&6&lTabung Panah Berburu"
+    material: "BOW"
+    lore:
+      - "&7Tempat anak panah kulit klasik"
+      - "&7yang menggantung elegan di punggung."
+    price: 1200.0
+    permission: "hyrocosmetics.backpack.quiver"
+
+  # --- MODEL 3D KUSTOM (CustomModelData & ItemsAdder/Oraxen) ---
+  adventure_backpack_1:
+    type: BACKPACK
+    display_name: "&6&lTas Petualang Lvl I 3D"
+    material: "PAPER"
+    custom_model_data: 8001
+    itemsadder_item: "adventure_backpacks:backpack_lvl1"
+    lore:
+      - "&7Tas ransel petualang pemula dengan"
+      - "&7gulungan matras tidur di atasnya."
+      - "&8Model: backpack_lvl1.json"
+    price: 2500.0
+    permission: "hyrocosmetics.backpack.adventure1"
+
+  adventure_backpack_2:
+    type: BACKPACK
+    display_name: "&6&lTas Petualang Lvl II 3D"
+    material: "PAPER"
+    custom_model_data: 8002
+    itemsadder_item: "adventure_backpacks:backpack_lvl2"
+    lore:
+      - "&7Tas ransel kokoh dengan kantong air"
+      - "&7dan gantungan lentera malam."
+      - "&8Model: backpack_lvl2.json"
+    price: 3500.0
+    permission: "hyrocosmetics.backpack.adventure2"
+
+  adventure_backpack_3:
+    type: BACKPACK
+    display_name: "&a&lTas Petualang Lvl III 3D"
+    material: "PAPER"
+    custom_model_data: 8003
+    itemsadder_item: "adventure_backpacks:backpack_lvl3"
+    lore:
+      - "&7Tas ekspedisi gunung dengan tali"
+      - "&7tambang dan kantong samping ganda."
+      - "&8Model: backpack_lvl3.json"
+    price: 5000.0
+    permission: "hyrocosmetics.backpack.adventure3"
+
+  adventure_backpack_4:
+    type: BACKPACK
+    display_name: "&3&lTas Petualang Elit Lvl IV 3D"
+    material: "PAPER"
+    custom_model_data: 8004
+    itemsadder_item: "adventure_backpacks:backpack_lvl4"
+    lore:
+      - "&7Tas ekspedisi penjelajah rimba tingkat"
+      - "&7tinggi berbalut pengait besi baja."
+      - "&8Model: backpack_lvl4.json"
+    price: 7000.0
+    permission: "hyrocosmetics.backpack.adventure4"
+
+  adventure_backpack_5:
+    type: BACKPACK
+    display_name: "&c&lTas Petualang Master Lvl V 3D"
+    material: "PAPER"
+    custom_model_data: 8005
+    itemsadder_item: "adventure_backpacks:backpack_lvl5"
+    lore:
+      - "&7Tas ekspedisi legendaris berbahan kulit"
+      - "&7naga berkapasitas tanpa batas."
+      - "&8Model: backpack_lvl5.json"
+    price: 9000.0
+    permission: "hyrocosmetics.backpack.adventure5"
+
+  cow_tail_backpack:
+    type: BACKPACK
+    display_name: "&b&lEkor Sapi Goyang 3D"
+    material: "PAPER"
+    custom_model_data: 9926594
+    itemsadder_item: "ero_feral_fantasy_set_v2:cow_tail_backpack"
+    lore:
+      - "&7Ekor sapi 3D berbulu yang terpasang"
+      - "&7lucu di belakang punggung/pinggang."
+      - "&8Model: cow_tail_backpack.json"
+    price: 3000.0
+    permission: "hyrocosmetics.backpack.cow_tail"
+
+  deer_tail_backpack:
+    type: BACKPACK
+    display_name: "&6&lEkor Rusa Rimba 3D"
+    material: "PAPER"
+    custom_model_data: 9926597
+    itemsadder_item: "ero_feral_fantasy_set_v2:deer_tail_backpack"
+    lore:
+      - "&7Ekor rusa cokelat mungil yang"
+      - "&7menggemaskan di pinggang Anda."
+      - "&8Model: deer_tail_backpack.json"
+    price: 3000.0
+    permission: "hyrocosmetics.backpack.deer_tail"

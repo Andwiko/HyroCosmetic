@@ -1,0 +1,863 @@
+# ==========================================================
+#              HYROCOSMETICS - CATALOG FILE
+#    8 Categories: HATS, BACKPACKS, WINGS, HAND, FOOT,
+#              BALLOONS, TRAILS, KILL_EFFECTS
+# ==========================================================
+
+cosmetics:
+
+  # --------------------------------------------------------
+  # 1. 3D HATS & MASKS (Di Kepala, Non-Destructive)
+  # --------------------------------------------------------
+  samurai_hat:
+    type: HAT
+    display_name: "&c&lTopi Samurai"
+    material: "TURTLE_HELMET"
+    lore:
+      - "&7Topi pelindung prajurit samurai"
+      - "&7dengan ornamen kehormatan."
+    price: 1500.0
+    permission: "hyrocosmetics.hat.samurai"
+
+  crown:
+    type: HAT
+    display_name: "&6&lMahkota Raja Emas"
+    material: "GOLDEN_HELMET"
+    lore:
+      - "&7Mahkota emas berkilauan bertahtakan"
+      - "&7permata rubi untuk penguasa sejati."
+    price: 5000.0
+    permission: "hyrocosmetics.hat.crown"
+
+  cyber_mask:
+    type: HAT
+    display_name: "&b&lTopeng Cyberpunk"
+    material: "DIAMOND_HELMET"
+    lore:
+      - "&7Topeng hologram futuristik dengan"
+      - "&7lampu neon LED cyan menyala."
+    price: 2500.0
+    permission: "hyrocosmetics.hat.cyber"
+
+  chicken_hat:
+    type: HAT
+    display_name: "&6&lTopi Ayam Lucu 3D"
+    material: "PAPER"
+    custom_model_data: 10001
+    itemsadder_item: "ax_free_hats_pack:chicken_hat"
+    lore:
+      - "&7Topi 3D ayam menggemaskan yang"
+      - "&7menengok lucu di atas kepala Anda."
+    price: 2000.0
+    permission: "hyrocosmetics.hat.chicken"
+
+  diving_helmet:
+    type: HAT
+    display_name: "&b&lHelm Selam Samudra 3D"
+    material: "PAPER"
+    custom_model_data: 10000
+    itemsadder_item: "ax_free_hats_pack:diving_helmet"
+    lore:
+      - "&7Helm selam kuno berbahan tembaga"
+      - "&7pelindung penyelam laut dalam."
+    price: 3500.0
+    permission: "hyrocosmetics.hat.diving"
+
+  flight_hat:
+    type: HAT
+    display_name: "&c&lTopi Penerbang Aviator 3D"
+    material: "PAPER"
+    custom_model_data: 10002
+    itemsadder_item: "ax_free_hats_pack:flight_hat"
+    lore:
+      - "&7Topi kulit pilot pesawat vintage"
+      - "&7lengkap dengan kacamata goggle."
+    price: 3000.0
+    permission: "hyrocosmetics.hat.flight"
+
+  military_helmet:
+    type: HAT
+    display_name: "&a&lHelm Tempur Taktis 3D"
+    material: "PAPER"
+    custom_model_data: 10003
+    itemsadder_item: "ax_free_hats_pack:military_helmet"
+    lore:
+      - "&7Helm pelindung baja militer dengan"
+      - "&7lapisan kamuflase hutan rimba."
+    price: 3200.0
+    permission: "hyrocosmetics.hat.military"
+
+  motorcycle_helmet:
+    type: HAT
+    display_name: "&c&lHelm Motor Racing 3D"
+    material: "PAPER"
+    custom_model_data: 10004
+    itemsadder_item: "ax_free_hats_pack:motorcycle_helmet"
+    lore:
+      - "&7Helm full-face balap jalanan dengan"
+      - "&7kaca visor gelap anti-silau."
+    price: 4000.0
+    permission: "hyrocosmetics.hat.motorcycle"
+
+  pot_hat:
+    type: HAT
+    display_name: "&b&lTopi Panci Koki Unik 3D"
+    material: "PAPER"
+    custom_model_data: 10005
+    itemsadder_item: "ax_free_hats_pack:pot_hat"
+    lore:
+      - "&7Panci rebusan yang dipakai terbalik"
+      - "&7sebagai helm petualang jenaka."
+    price: 1800.0
+    permission: "hyrocosmetics.hat.pot"
+
+  ethereal_witch_hat:
+    type: HAT
+    display_name: "&9&lTopi Penyihir Astral 3D"
+    material: "PAPER"
+    custom_model_data: 11001
+    itemsadder_item: "witch_pack:ethereal_witch_hat"
+    lore:
+      - "&7Topi kerucut sihir ungu bercahaya"
+      - "&7dengan aura bintang kosmis misterius."
+    price: 5500.0
+    permission: "hyrocosmetics.hat.witch"
+
+  cow_ears_hat:
+    type: HAT
+    display_name: "&b&lBando Telinga Sapi Imut 3D"
+    material: "PAPER"
+    custom_model_data: 9926592
+    itemsadder_item: "ero_feral_fantasy_set_v2:cow_ears_hat"
+    lore:
+      - "&7Bando telinga sapi putih lembut"
+      - "&7yang sangat menggemaskan."
+    price: 2500.0
+    permission: "hyrocosmetics.hat.cow_ears"
+
+  deer_ears_hat:
+    type: HAT
+    display_name: "&6&lTelinga Rusa Rimba Peri 3D"
+    material: "PAPER"
+    custom_model_data: 9926595
+    itemsadder_item: "ero_feral_fantasy_set_v2:deer_ears_hat"
+    lore:
+      - "&7Telinga rusa mungil penghuni"
+      - "&7hutan mistis negeri dongeng."
+    price: 2800.0
+    permission: "hyrocosmetics.hat.deer_ears"
+
+  # --------------------------------------------------------
+  # 2. 3D BACKPACKS (Tas Punggung & Ransel)
+  # --------------------------------------------------------
+  tactical_backpack:
+    type: BACKPACK
+    display_name: "&a&lRansel Militer Taktis"
+    material: "CHEST"
+    lore:
+      - "&7Tas ransel survival militer berkapasitas"
+      - "&7besar dengan kantong amunisi."
+    price: 3000.0
+    permission: "hyrocosmetics.backpack.tactical"
+
+  sci_fi_jetpack:
+    type: BACKPACK
+    display_name: "&c&lJetpack Sci-Fi"
+    material: "SHULKER_BOX"
+    lore:
+      - "&7Mesin pendorong jetpack berteknologi"
+      - "&7tinggi di punggung Anda."
+    price: 7500.0
+    permission: "hyrocosmetics.backpack.jetpack"
+
+  quiver:
+    type: BACKPACK
+    display_name: "&6&lTabung Panah Berburu"
+    material: "BOW"
+    lore:
+      - "&7Tempat anak panah kulit klasik"
+      - "&7yang menggantung elegan di punggung."
+    price: 1200.0
+    permission: "hyrocosmetics.backpack.quiver"
+
+  adventure_backpack_1:
+    type: BACKPACK
+    display_name: "&6&lTas Petualang Lvl I 3D"
+    material: "PAPER"
+    custom_model_data: 8001
+    itemsadder_item: "adventure_backpacks:backpack_lvl1"
+    lore:
+      - "&7Tas ransel petualang pemula dengan"
+      - "&7gulungan matras tidur di atasnya."
+    price: 2500.0
+    permission: "hyrocosmetics.backpack.adventure1"
+
+  adventure_backpack_2:
+    type: BACKPACK
+    display_name: "&6&lTas Petualang Lvl II 3D"
+    material: "PAPER"
+    custom_model_data: 8002
+    itemsadder_item: "adventure_backpacks:backpack_lvl2"
+    lore:
+      - "&7Tas ransel kokoh dengan kantong air"
+      - "&7dan gantungan lentera malam."
+    price: 3500.0
+    permission: "hyrocosmetics.backpack.adventure2"
+
+  adventure_backpack_3:
+    type: BACKPACK
+    display_name: "&a&lTas Petualang Lvl III 3D"
+    material: "PAPER"
+    custom_model_data: 8003
+    itemsadder_item: "adventure_backpacks:backpack_lvl3"
+    lore:
+      - "&7Tas ekspedisi gunung dengan tali"
+      - "&7tambang dan kantong samping ganda."
+    price: 5000.0
+    permission: "hyrocosmetics.backpack.adventure3"
+
+  adventure_backpack_4:
+    type: BACKPACK
+    display_name: "&3&lTas Petualang Elit Lvl IV 3D"
+    material: "PAPER"
+    custom_model_data: 8004
+    itemsadder_item: "adventure_backpacks:backpack_lvl4"
+    lore:
+      - "&7Tas ekspedisi penjelajah rimba tingkat"
+      - "&7tinggi berbalut pengait besi baja."
+    price: 7000.0
+    permission: "hyrocosmetics.backpack.adventure4"
+
+  adventure_backpack_5:
+    type: BACKPACK
+    display_name: "&c&lTas Petualang Master Lvl V 3D"
+    material: "PAPER"
+    custom_model_data: 8005
+    itemsadder_item: "adventure_backpacks:backpack_lvl5"
+    lore:
+      - "&7Tas ekspedisi legendaris berbahan kulit"
+      - "&7naga berkapasitas tanpa batas."
+    price: 9000.0
+    permission: "hyrocosmetics.backpack.adventure5"
+
+  cow_tail_backpack:
+    type: BACKPACK
+    display_name: "&b&lEkor Sapi Goyang 3D"
+    material: "PAPER"
+    custom_model_data: 9926594
+    itemsadder_item: "ero_feral_fantasy_set_v2:cow_tail_backpack"
+    lore:
+      - "&7Ekor sapi 3D berbulu yang terpasang"
+      - "&7lucu di belakang punggung/pinggang."
+    price: 3000.0
+    permission: "hyrocosmetics.backpack.cow_tail"
+
+  deer_tail_backpack:
+    type: BACKPACK
+    display_name: "&6&lEkor Rusa Rimba 3D"
+    material: "PAPER"
+    custom_model_data: 9926597
+    itemsadder_item: "ero_feral_fantasy_set_v2:deer_tail_backpack"
+    lore:
+      - "&7Ekor rusa cokelat mungil yang"
+      - "&7menggemaskan di pinggang Anda."
+    price: 3000.0
+    permission: "hyrocosmetics.backpack.deer_tail"
+
+  # --------------------------------------------------------
+  # 3. 3D WINGS (Sayap Terpisah)
+  # --------------------------------------------------------
+  angel_wings:
+    type: WINGS
+    display_name: "&b&lSayap Malaikat Suci"
+    material: "PAPER"
+    custom_model_data: 9000
+    itemsadder_item: "ax_wings_pack:angel_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sepasang sayap bulu putih suci"
+      - "&7yang memancarkan aura ketenangan."
+    price: 10000.0
+    permission: "hyrocosmetics.wings.angel"
+
+  astronaut_wings:
+    type: WINGS
+    display_name: "&b&lSayap Astronaut Kosmis"
+    material: "PAPER"
+    custom_model_data: 9001
+    itemsadder_item: "ax_wings_pack:astronaut_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap pendorong berteknologi antariksa"
+      - "&7dengan panel surya dan nozzle plasma."
+    price: 14000.0
+    permission: "hyrocosmetics.wings.astronaut"
+
+  bluefire_wings:
+    type: WINGS
+    display_name: "&b&lSayap Api Biru Mistik"
+    material: "PAPER"
+    custom_model_data: 9002
+    itemsadder_item: "ax_wings_pack:bluefire_wings"
+    display_transform: "FIXED"
+    scale: 1.1
+    lore:
+      - "&7Kobaran api biru dingin abadi yang"
+      - "&7membakar anggun di belakang Anda."
+    price: 15000.0
+    permission: "hyrocosmetics.wings.bluefire"
+
+  brown_wings:
+    type: WINGS
+    display_name: "&b&lSayap Elang Cokelat"
+    material: "PAPER"
+    custom_model_data: 9003
+    itemsadder_item: "ax_wings_pack:brown_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap bulu elang cokelat perkasa"
+      - "&7penguasa langit rimba belantara."
+    price: 9500.0
+    permission: "hyrocosmetics.wings.brown"
+
+  butterfly_wings:
+    type: WINGS
+    display_name: "&7&lSayap Kupu-Kupu Indah"
+    material: "PAPER"
+    custom_model_data: 9004
+    itemsadder_item: "ax_wings_pack:butterfly_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap kupu-kupu raksasa dengan corak"
+      - "&7warna gradasi pink ungu mempesona."
+    price: 11000.0
+    permission: "hyrocosmetics.wings.butterfly"
+
+  demon_wings:
+    type: WINGS
+    display_name: "&c&lSayap Iblis Nether"
+    material: "PAPER"
+    custom_model_data: 9005
+    itemsadder_item: "ax_wings_pack:demon_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap membran naga iblis merah darah"
+      - "&7dengan cakar tajam di ujungnya."
+    price: 16000.0
+    permission: "hyrocosmetics.wings.demon"
+
+  dragon_wings:
+    type: WINGS
+    display_name: "&9&lSayap Naga Ender"
+    material: "PAPER"
+    custom_model_data: 9006
+    itemsadder_item: "ax_wings_pack:dragon_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap penguasa dimensi The End"
+      - "&7dengan tekstur sisik naga legendaris."
+    price: 18000.0
+    permission: "hyrocosmetics.wings.dragon"
+
+  eagle_wings:
+    type: WINGS
+    display_name: "&6&lSayap Rajawali Emas"
+    material: "PAPER"
+    custom_model_data: 9007
+    itemsadder_item: "ax_wings_pack:eagle_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap rajawali agung penjelajah"
+      - "&7angkasa dengan bentang sayap lebar."
+    price: 13500.0
+    permission: "hyrocosmetics.wings.eagle"
+
+  golden_wings:
+    type: WINGS
+    display_name: "&e&lSayap Emas Kemuliaan"
+    material: "PAPER"
+    custom_model_data: 9008
+    itemsadder_item: "ax_wings_pack:golden_wings"
+    display_transform: "FIXED"
+    scale: 1.1
+    lore:
+      - "&7Sayap berlapis emas murni berkilau"
+      - "&7lambang kejayaan para kaisar."
+    price: 20000.0
+    permission: "hyrocosmetics.wings.golden"
+
+  ocean_wings:
+    type: WINGS
+    display_name: "&b&lSayap Samudra Laut Dalam"
+    material: "PAPER"
+    custom_model_data: 9009
+    itemsadder_item: "ax_wings_pack:ocean_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap bercahaya dari kedalaman samudra"
+      - "&7berkilau biru toska bagai ombak lautan."
+    price: 17000.0
+    permission: "hyrocosmetics.wings.ocean"
+
+  purple_wings:
+    type: WINGS
+    display_name: "&9&lSayap Amethyst Ungu"
+    material: "PAPER"
+    custom_model_data: 9010
+    itemsadder_item: "ax_wings_pack:purple_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap kristal amethyst ungu mempesona"
+      - "&7dengan kilau permata bangsawan."
+    price: 16500.0
+    permission: "hyrocosmetics.wings.purple"
+
+  phoenix_wings:
+    type: WINGS
+    display_name: "&c&lSayap Burung Phoenix"
+    material: "PAPER"
+    custom_model_data: 9011
+    itemsadder_item: "ax_wings_pack:phoenix_wings"
+    display_transform: "FIXED"
+    scale: 1.1
+    lore:
+      - "&7Sayap burung api legendaris yang bangkit"
+      - "&7kembali dari abu pembakaran abadi."
+    price: 22000.0
+    permission: "hyrocosmetics.wings.phoenix"
+
+  # --------------------------------------------------------
+  # 4. HAND / WEAPONS COSMETICS (Tangan & Tongkat)
+  # --------------------------------------------------------
+  mage_staff:
+    type: HAND
+    display_name: "&5&lTongkat Penyihir Agung"
+    material: "BLAZE_ROD"
+    lore:
+      - "&7Tongkat magis kuno berbalut kristal"
+      - "&7energi sihir yang berputar stabil."
+    price: 4500.0
+    permission: "hyrocosmetics.hand.staff"
+
+  flame_sword:
+    type: HAND
+    display_name: "&c&lPedang Bara Api"
+    material: "GOLDEN_SWORD"
+    lore:
+      - "&7Bilah pedang legendaris yang senantiasa"
+      - "&7memancarkan panas kobaran bara lahar."
+    price: 6000.0
+    permission: "hyrocosmetics.hand.flame_sword"
+
+  frost_axe:
+    type: HAND
+    display_name: "&3&lKapak Es Abadi"
+    material: "DIAMOND_AXE"
+    lore:
+      - "&7Kapak perang beku dari puncak gletser"
+      - "&7terdingin di dunia Nordik."
+    price: 5500.0
+    permission: "hyrocosmetics.hand.frost_axe"
+
+  ethereal_witch_broom:
+    type: HAND
+    display_name: "&9&lSapu Sihir Ethereal 3D"
+    material: "PAPER"
+    custom_model_data: 11005
+    itemsadder_item: "witch_pack:ethereal_witch_broom"
+    lore:
+      - "&7Sapu terbang 3D penyihir ungu astral"
+      - "&7dengan ranting sihir memancarkan cahaya."
+    price: 6500.0
+    permission: "hyrocosmetics.hand.witch_broom"
+
+  nocturne_witch_broom:
+    type: HAND
+    display_name: "&8&lSapu Sihir Nocturne 3D"
+    material: "PAPER"
+    custom_model_data: 11006
+    itemsadder_item: "witch_pack:nocturne_witch_broom"
+    lore:
+      - "&7Sapu sihir hitam kelam bertenaga"
+      - "&7bayangan kegelapan malam hari."
+    price: 6500.0
+    permission: "hyrocosmetics.hand.nocturne_broom"
+
+  starry_witch_broom:
+    type: HAND
+    display_name: "&3&lSapu Sihir Bintang 3D"
+    material: "PAPER"
+    custom_model_data: 11007
+    itemsadder_item: "witch_pack:starry_witch_broom"
+    lore:
+      - "&7Tongkat sapu terbang biru berhiaskan"
+      - "&7bintang galaksi berkilauan indah."
+    price: 7000.0
+    permission: "hyrocosmetics.hand.starry_broom"
+
+  sweet_enchantress_broom:
+    type: HAND
+    display_name: "&7&lSapu Sihir Gula Manis 3D"
+    material: "PAPER"
+    custom_model_data: 11008
+    itemsadder_item: "witch_pack:sweet_enchantress_broom"
+    lore:
+      - "&7Sapu sihir merah muda dengan pita manis"
+      - "&7bergaya penyihir peri penuh keceriaan."
+    price: 6000.0
+    permission: "hyrocosmetics.hand.sweet_broom"
+
+  # --------------------------------------------------------
+  # 5. FOOT COSMETICS (Sepatu, Gelang Kaki, Aura Pijakan)
+  # --------------------------------------------------------
+  sneakers:
+    type: FOOT
+    display_name: "&3&lSneakers Keren"
+    material: "LEATHER_BOOTS"
+    lore:
+      - "&7Sepatu sneakers modern bergaya jalanan"
+      - "&7dengan bantalan udara empuk."
+    price: 2200.0
+    permission: "hyrocosmetics.foot.sneakers"
+
+  tactical_boots:
+    type: FOOT
+    display_name: "&8&lBoots Tempur Taktis"
+    material: "IRON_BOOTS"
+    lore:
+      - "&7Sepatu laras militer baja kokoh"
+      - "&7untuk segala medan berat."
+    price: 2800.0
+    permission: "hyrocosmetics.foot.boots"
+
+  fire_step:
+    type: FOOT
+    display_name: "&c&lPijakan Jejak Api"
+    material: "MAGMA_BLOCK"
+    particle_type: "FLAME"
+    lore:
+      - "&7Setiap langkah kaki Anda membakar tanah"
+      - "&7dengan lingkaran bara api menyala."
+    price: 4000.0
+    permission: "hyrocosmetics.foot.firestep"
+
+  speed_boots:
+    type: FOOT
+    display_name: "&b&lSepatu Angin Hermes"
+    material: "LEATHER_BOOTS"
+    lore:
+      - "&7Sepatu bot ringan berhias sayap emas"
+      - "&7yang membuat langkah terasa secepat angin."
+    price: 3500.0
+    permission: "hyrocosmetics.foot.speed"
+
+  magma_boots:
+    type: FOOT
+    display_name: "&c&lSepatu Pijakan Magma"
+    material: "NETHERITE_BOOTS"
+    lore:
+      - "&7Sepatu baja membara dari dasar magma"
+      - "&7meninggalkan bekas panas di setiap pijakan."
+    price: 4500.0
+    permission: "hyrocosmetics.foot.magma"
+
+  # --------------------------------------------------------
+  # 6. BALLOONS (Balon Hewan / Karakter Melayang 3D)
+  # --------------------------------------------------------
+  heart_balloon:
+    type: BALLOON
+    display_name: "&c&lBalon Cinta Hati"
+    material: "RED_DYE"
+    lore:
+      - "&7Balon terbang berbentuk hati merah"
+      - "&7merona yang melayang di samping Anda."
+    price: 2000.0
+    permission: "hyrocosmetics.balloon.heart"
+
+  creeper_balloon:
+    type: BALLOON
+    display_name: "&3&lBalon Creeper Hijau"
+    material: "SLIME_BALL"
+    lore:
+      - "&7Balon helium ramah bergambar wajah"
+      - "&7creeper yang dijamin tidak akan meledak."
+    price: 2500.0
+    permission: "hyrocosmetics.balloon.creeper"
+
+  solar_balloon:
+    type: BALLOON
+    display_name: "&c&lBalon Surya Mini"
+    material: "GLOWSTONE_DUST"
+    lore:
+      - "&7Miniatur matahari berpijar hangat"
+      - "&7yang setia menemani setiap petualangan."
+    price: 3500.0
+    permission: "hyrocosmetics.balloon.solar"
+
+  balloon_bison:
+    type: BALLOON
+    display_name: "&b&lBalon Bison Perkasa 3D"
+    material: "BRICK"
+    custom_model_data: 77
+    lore:
+      - "&7Balon helium 3D bermotif kepala bison"
+      - "&7padang rumput berbulu lebat."
+    price: 4000.0
+    permission: "hyrocosmetics.balloon.bison"
+
+  balloon_caterpillar:
+    type: BALLOON
+    display_name: "&a&lBalon Ulat Lucu 3D"
+    material: "BRICK"
+    custom_model_data: 78
+    lore:
+      - "&7Balon ulat hijau manis yang meliuk"
+      - "&7lucu menemani petualangan Anda."
+    price: 4200.0
+    permission: "hyrocosmetics.balloon.caterpillar"
+
+  balloon_fox:
+    type: BALLOON
+    display_name: "&6&lBalon Rubah Oranye 3D"
+    material: "BRICK"
+    custom_model_data: 79
+    lore:
+      - "&7Balon mengambang imut berbentuk rubah"
+      - "&7oranye dengan ekor bergoyang."
+    price: 4500.0
+    permission: "hyrocosmetics.balloon.fox"
+
+  balloon_ladybug:
+    type: BALLOON
+    display_name: "&c&lBalon Kumbang Totol 3D"
+    material: "BRICK"
+    custom_model_data: 80
+    lore:
+      - "&7Balon kumbang merah bertotol hitam"
+      - "&7yang terbang anggun di sisi tubuh."
+    price: 3800.0
+    permission: "hyrocosmetics.balloon.ladybug"
+
+  balloon_peacock:
+    type: BALLOON
+    display_name: "&b&lBalon Merak Cantik 3D"
+    material: "BRICK"
+    custom_model_data: 81
+    lore:
+      - "&7Balon burung merak biru toska dengan"
+      - "&7detail bulu ekor yang merekah indah."
+    price: 5000.0
+    permission: "hyrocosmetics.balloon.peacock"
+
+  balloon_shepard:
+    type: BALLOON
+    display_name: "&6&lBalon Anjing Gembala 3D"
+    material: "BRICK"
+    custom_model_data: 82
+    lore:
+      - "&7Balon sahabat setia anjing herder"
+      - "&7yang mengawasi setiap langkah Anda."
+    price: 4200.0
+    permission: "hyrocosmetics.balloon.shepard"
+
+  balloon_sniffer:
+    type: BALLOON
+    display_name: "&a&lBalon Sniffer Purba 3D"
+    material: "BRICK"
+    custom_model_data: 83
+    lore:
+      - "&7Balon makhluk purbakala sniffer lumut"
+      - "&7yang damai dan membawa keberuntungan."
+    price: 5500.0
+    permission: "hyrocosmetics.balloon.sniffer"
+
+  # --------------------------------------------------------
+  # 7. PARTICLE TRAILS (Efek Jejak Berjalan)
+  # --------------------------------------------------------
+  flame_trail:
+    type: TRAIL
+    display_name: "&c&lJejak Api Neraka"
+    material: "BLAZE_POWDER"
+    particle_type: "FLAME"
+    lore:
+      - "&7Tinggalkan jejak kobaran api menyala"
+      - "&7setiap kali kaki Anda melangkah."
+    price: 3000.0
+    permission: "hyrocosmetics.trail.flame"
+
+  angel_sparkles:
+    type: TRAIL
+    display_name: "&6&lKilau Bintang Suci"
+    material: "GLOWSTONE_DUST"
+    particle_type: "TOTEM_OF_UNDYING"
+    lore:
+      - "&7Percikan cahaya keemasan suci"
+      - "&7yang jatuh lembut dari tubuh Anda."
+    price: 3000.0
+    permission: "hyrocosmetics.trail.sparkle"
+
+  electric_speed:
+    type: TRAIL
+    display_name: "&b&lPercikan Kilat Petir"
+    material: "LIGHTNING_ROD"
+    particle_type: "ELECTRIC_SPARK"
+    lore:
+      - "&7Muatan arus listrik biru yang"
+      - "&7menyambar di sekeliling kaki Anda."
+    price: 3500.0
+    permission: "hyrocosmetics.trail.electric"
+
+  heart_trail:
+    type: TRAIL
+    display_name: "&c&lJejak Kasih Sayang"
+    material: "POPPY"
+    particle_type: "HEART"
+    lore:
+      - "&7Tebarkan partikel hati merah merekah"
+      - "&7di mana pun Anda berjalan."
+    price: 2500.0
+    permission: "hyrocosmetics.trail.heart"
+
+  soul_trail:
+    type: TRAIL
+    display_name: "&b&lJejak Jiwa Mistis"
+    material: "SOUL_TORCH"
+    particle_type: "SOUL_FIRE_FLAME"
+    lore:
+      - "&7Api biru roh halus melayang mengiringi"
+      - "&7setiap gerak-gerik langkah kaki Anda."
+    price: 3500.0
+    permission: "hyrocosmetics.trail.soul"
+
+  breeze_gust_trail:
+    type: TRAIL
+    display_name: "&f&lPusaran Badai Breeze"
+    material: "FEATHER"
+    particle_type: "GUST"
+    lore:
+      - "&7Pusaran angin badai khas mob Breeze 1.21"
+      - "&7yang melingkari langkah kaki Anda."
+    price: 4500.0
+    permission: "hyrocosmetics.trail.breeze"
+
+  trial_omen_aura:
+    type: TRAIL
+    display_name: "&5&lAura Mistis Trial Omen"
+    material: "POTION"
+    particle_type: "OMINOUS_SPAWNING"
+    lore:
+      - "&7Kobaran api ungu tengkorak Ominous 1.21"
+      - "&7dari kedalaman Trial Chamber kuno."
+    price: 5500.0
+    permission: "hyrocosmetics.trail.trialomen"
+
+  cherry_blossom_trail:
+    type: TRAIL
+    display_name: "&d&lGuguran Bunga Sakura"
+    material: "CHERRY_SAPLING"
+    particle_type: "CHERRY_LEAVES"
+    lore:
+      - "&7Kelopak bunga sakura merah muda merekah"
+      - "&7yang berguguran indah saat Anda melangkah."
+    price: 4000.0
+    permission: "hyrocosmetics.trail.cherry"
+
+  vault_connection_aura:
+    type: TRAIL
+    display_name: "&6&lPancaran Energi Vault"
+    material: "TRIPWIRE_HOOK"
+    particle_type: "VAULT_CONNECTION"
+    lore:
+      - "&7Garis rune emas mistis dari peti Vault 1.21"
+      - "&7yang mengalir menyelimuti tubuh Anda."
+    price: 6000.0
+    permission: "hyrocosmetics.trail.vault"
+
+  # --------------------------------------------------------
+  # 8. KILL EFFECTS (Efek Kematian Musuh)
+  # --------------------------------------------------------
+  lightning_kill:
+    type: KILL_EFFECT
+    display_name: "&6&lSambaran Petir Dewa"
+    material: "LIGHTNING_ROD"
+    effect_action: "LIGHTNING"
+    lore:
+      - "&7Panggil sambaran petir gemuruh langit"
+      - "&7saat musuh Anda berhasil dikalahkan!"
+    price: 6000.0
+    permission: "hyrocosmetics.killeffect.lightning"
+
+  blood_explosion:
+    type: KILL_EFFECT
+    display_name: "&c&lLedakan Darah Merah"
+    material: "REDSTONE_BLOCK"
+    effect_action: "BLOOD"
+    lore:
+      - "&7Ledakan partikel merah darah dramatis"
+      - "&7memenuhi lokasi kekalahan lawan."
+    price: 5000.0
+    permission: "hyrocosmetics.killeffect.blood"
+
+  firework_kill:
+    type: KILL_EFFECT
+    display_name: "&b&lPesta Kembang Api"
+    material: "FIREWORK_ROCKET"
+    effect_action: "FIREWORK"
+    lore:
+      - "&7Luncurkan kembang api meriah ke angkasa"
+      - "&7untuk merayakan kemenangan telak Anda."
+    price: 4500.0
+    permission: "hyrocosmetics.killeffect.firework"
+
+  soul_vortex:
+    type: KILL_EFFECT
+    display_name: "&8&lPusaran Jiwa Nether"
+    material: "SOUL_CAMPFIRE"
+    effect_action: "SOUL"
+    lore:
+      - "&7Menghisap jiwa musuh ke dalam api biru"
+      - "&7Nether saat Anda mengalahkannya."
+    price: 6000.0
+    permission: "hyrocosmetics.kill.soul"
+
+  wind_burst_kill:
+    type: KILL_EFFECT
+    display_name: "&f&lLedakan Badai Breeze"
+    material: "SNOWBALL"
+    effect_action: "WIND_BURST"
+    lore:
+      - "&7Memicu ledakan badai angin puyuh Breeze 1.21"
+      - "&7yang dahsyat saat mengeliminasi musuh."
+    price: 6500.0
+    permission: "hyrocosmetics.kill.windburst"
+
+  mace_slam_kill:
+    type: KILL_EFFECT
+    display_name: "&6&lHantaman Dentuman Mace"
+    material: "IRON_AXE"
+    effect_action: "MACE_SLAM"
+    lore:
+      - "&7Menghentak tanah dengan gelombang kejut"
+      - "&7senjata Mace 1.21 yang mematikan."
+    price: 7000.0
+    permission: "hyrocosmetics.kill.maceslam"
+
+  ominous_skull_kill:
+    type: KILL_EFFECT
+    display_name: "&5&lPusaran Kutukan Ominous"
+    material: "NETHER_STAR"
+    effect_action: "OMINOUS_SKULL"
+    lore:
+      - "&7Memanggil kabut dan tengkorak Ominous 1.21"
+      - "&7yang menghabisi sisa aura lawan Anda."
+    price: 7500.0
+    permission: "hyrocosmetics.kill.ominousskull"

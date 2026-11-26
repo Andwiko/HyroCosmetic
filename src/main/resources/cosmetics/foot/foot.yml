@@ -1,0 +1,55 @@
+# ==========================================================
+#              HYROCOSMETICS - FOOT (SEPATU & PIJAKAN)
+# ==========================================================
+
+cosmetics:
+  sneakers:
+    type: FOOT
+    display_name: "&3&lSneakers Keren"
+    material: "LEATHER_BOOTS"
+    lore:
+      - "&7Sepatu sneakers modern bergaya jalanan"
+      - "&7dengan bantalan udara empuk."
+    price: 2200.0
+    permission: "hyrocosmetics.foot.sneakers"
+
+  tactical_boots:
+    type: FOOT
+    display_name: "&8&lBoots Tempur Taktis"
+    material: "IRON_BOOTS"
+    lore:
+      - "&7Sepatu laras militer baja kokoh"
+      - "&7untuk segala medan berat."
+    price: 2800.0
+    permission: "hyrocosmetics.foot.boots"
+
+  fire_step:
+    type: FOOT
+    display_name: "&c&lPijakan Jejak Api"
+    material: "MAGMA_BLOCK"
+    particle_type: "FLAME"
+    lore:
+      - "&7Setiap langkah kaki Anda membakar tanah"
+      - "&7dengan lingkaran bara api menyala."
+    price: 4000.0
+    permission: "hyrocosmetics.foot.firestep"
+
+  speed_boots:
+    type: FOOT
+    display_name: "&b&lSepatu Angin Hermes"
+    material: "LEATHER_BOOTS"
+    lore:
+      - "&7Sepatu bot ringan berhias sayap emas"
+      - "&7yang membuat langkah terasa secepat angin."
+    price: 3500.0
+    permission: "hyrocosmetics.foot.speed"
+
+  magma_boots:
+    type: FOOT
+    display_name: "&c&lSepatu Pijakan Magma"
+    material: "NETHERITE_BOOTS"
+    lore:
+      - "&7Sepatu baja membara dari dasar magma"
+      - "&7meninggalkan bekas panas di setiap pijakan."
+    price: 4500.0
+    permission: "hyrocosmetics.foot.magma"

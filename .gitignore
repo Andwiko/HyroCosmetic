@@ -1,0 +1,11 @@
+/target/
+/bin/
+/.idea/
+/.vscode/
+/.project
+/.settings/
+*.class
+*.jar
+*.db
+*.log
+/HyroCosmetics_Pack.zip

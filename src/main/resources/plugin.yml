@@ -1,0 +1,27 @@
+name: HyroCosmetics
+version: 1.1.0
+main: com.hyrocosmetics.HyroCosmetics
+api-version: '1.20'
+author: Hyrost
+description: Advanced 3D Cosmetics Engine (Hats, Backpacks, Wings, Hand, Foot, Balloons, Trails, Kill Effects)
+
+softdepend:
+  - HyroCore
+  - ItemsAdder
+  - Vault
+  - PlaceholderAPI
+
+commands:
+  cosmetics:
+    description: Open the cosmetics wardrobe
+    aliases: [hc, hcosmetics, cosmetic, wardrobe, topi, pakaian]
+    permission: hyrocosmetics.use
+    usage: /cosmetics [menu|unequip|viewself|reload]
+
+permissions:
+  hyrocosmetics.use:
+    description: Allows opening and using the cosmetics wardrobe
+    default: true
+  hyrocosmetics.admin:
+    description: Allows administrative cosmetic commands
+    default: op

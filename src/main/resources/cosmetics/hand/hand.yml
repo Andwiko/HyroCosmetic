@@ -1,0 +1,87 @@
+# ==========================================================
+#         HYROCOSMETICS - HAND / WEAPONS (TANGAN & SENJATA)
+# ==========================================================
+
+cosmetics:
+  mage_staff:
+    type: HAND
+    display_name: "&5&lTongkat Penyihir Agung"
+    material: "BLAZE_ROD"
+    lore:
+      - "&7Tongkat magis kuno berbalut kristal"
+      - "&7energi sihir yang berputar stabil."
+    price: 4500.0
+    permission: "hyrocosmetics.hand.staff"
+
+  flame_sword:
+    type: HAND
+    display_name: "&c&lPedang Bara Api"
+    material: "GOLDEN_SWORD"
+    lore:
+      - "&7Bilah pedang legendaris yang senantiasa"
+      - "&7memancarkan panas kobaran bara lahar."
+    price: 6000.0
+    permission: "hyrocosmetics.hand.flame_sword"
+
+  frost_axe:
+    type: HAND
+    display_name: "&3&lKapak Es Abadi"
+    material: "DIAMOND_AXE"
+    lore:
+      - "&7Kapak perang beku dari puncak gletser"
+      - "&7terdingin di dunia Nordik."
+    price: 5500.0
+    permission: "hyrocosmetics.hand.frost_axe"
+
+  # --- MODEL 3D KUSTOM (CustomModelData & ItemsAdder/Oraxen) ---
+  ethereal_witch_broom:
+    type: HAND
+    display_name: "&9&lSapu Sihir Ethereal 3D"
+    material: "PAPER"
+    custom_model_data: 11005
+    itemsadder_item: "witch_pack:ethereal_witch_broom"
+    lore:
+      - "&7Sapu terbang 3D penyihir ungu astral"
+      - "&7dengan ranting sihir memancarkan cahaya."
+      - "&8Model: ethereal_witch_broom.json"
+    price: 6500.0
+    permission: "hyrocosmetics.hand.witch_broom"
+
+  nocturne_witch_broom:
+    type: HAND
+    display_name: "&8&lSapu Sihir Nocturne 3D"
+    material: "PAPER"
+    custom_model_data: 11006
+    itemsadder_item: "witch_pack:nocturne_witch_broom"
+    lore:
+      - "&7Sapu sihir hitam kelam bertenaga"
+      - "&7bayangan kegelapan malam hari."
+      - "&8Model: nocturne_witch_broom.json"
+    price: 6500.0
+    permission: "hyrocosmetics.hand.nocturne_broom"
+
+  starry_witch_broom:
+    type: HAND
+    display_name: "&3&lSapu Sihir Bintang 3D"
+    material: "PAPER"
+    custom_model_data: 11007
+    itemsadder_item: "witch_pack:starry_witch_broom"
+    lore:
+      - "&7Tongkat sapu terbang biru berhiaskan"
+      - "&7bintang galaksi berkilauan indah."
+      - "&8Model: starry_witch_broom.json"
+    price: 7000.0
+    permission: "hyrocosmetics.hand.starry_broom"
+
+  sweet_enchantress_broom:
+    type: HAND
+    display_name: "&7&lSapu Sihir Gula Manis 3D"
+    material: "PAPER"
+    custom_model_data: 11008
+    itemsadder_item: "witch_pack:sweet_enchantress_broom"
+    lore:
+      - "&7Sapu sihir merah muda dengan pita manis"
+      - "&7bergaya penyihir peri penuh keceriaan."
+      - "&8Model: sweet_enchantress_broom.json"
+    price: 6000.0
+    permission: "hyrocosmetics.hand.sweet_broom"

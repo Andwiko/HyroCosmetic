@@ -1,0 +1,82 @@
+# ==========================================================
+#       HYROCOSMETICS - KILL EFFECTS (EFEK ELIMINASI)
+# ==========================================================
+
+cosmetics:
+  lightning_kill:
+    type: KILL_EFFECT
+    display_name: "&b&lSambaran Petir Zeus"
+    material: "LIGHTNING_ROD"
+    effect_action: "LIGHTNING"
+    lore:
+      - "&7Menyambar musuh dengan kilat petir"
+      - "&7gelegar saat Anda mengeliminasinya."
+    price: 4500.0
+    permission: "hyrocosmetics.kill.lightning"
+
+  firework_kill:
+    type: KILL_EFFECT
+    display_name: "&c&lPesta Kembang Api Megah"
+    material: "FIREWORK_ROCKET"
+    effect_action: "FIREWORK"
+    lore:
+      - "&7Meledakkan kembang api warna-warni"
+      - "&7di titik kematian lawan Anda."
+    price: 5000.0
+    permission: "hyrocosmetics.kill.firework"
+
+  soul_vortex:
+    type: KILL_EFFECT
+    display_name: "&8&lPusaran Jiwa Nether"
+    material: "SOUL_CAMPFIRE"
+    effect_action: "SOUL"
+    lore:
+      - "&7Menghisap jiwa musuh ke dalam api biru"
+      - "&7Nether saat Anda mengalahkannya."
+    price: 6000.0
+    permission: "hyrocosmetics.kill.soul"
+
+  blood_explosion:
+    type: KILL_EFFECT
+    display_name: "&c&lLedakan Darah Merah"
+    material: "REDSTONE_BLOCK"
+    effect_action: "BLOOD"
+    lore:
+      - "&7Ledakan partikel merah darah dramatis"
+      - "&7memenuhi lokasi kekalahan lawan."
+    price: 5000.0
+    permission: "hyrocosmetics.kill.blood"
+
+  # --- Modern 1.21+ Kill Effects ---
+  wind_burst_kill:
+    type: KILL_EFFECT
+    display_name: "&f&lLedakan Badai Breeze"
+    material: "SNOWBALL"
+    effect_action: "WIND_BURST"
+    lore:
+      - "&7Memicu ledakan badai angin puyuh Breeze 1.21"
+      - "&7yang dahsyat saat mengeliminasi musuh."
+    price: 6500.0
+    permission: "hyrocosmetics.kill.windburst"
+
+  mace_slam_kill:
+    type: KILL_EFFECT
+    display_name: "&6&lHantaman Dentuman Mace"
+    material: "IRON_AXE"
+    effect_action: "MACE_SLAM"
+    lore:
+      - "&7Menghentak tanah dengan gelombang kejut"
+      - "&7senjata Mace 1.21 yang mematikan."
+    price: 7000.0
+    permission: "hyrocosmetics.kill.maceslam"
+
+  ominous_skull_kill:
+    type: KILL_EFFECT
+    display_name: "&5&lPusaran Kutukan Ominous"
+    material: "NETHER_STAR"
+    effect_action: "OMINOUS_SKULL"
+    lore:
+      - "&7Memanggil kabut dan tengkorak Ominous 1.21"
+      - "&7yang menghabisi sisa aura lawan Anda."
+    price: 7500.0
+    permission: "hyrocosmetics.kill.ominousskull"

@@ -1,0 +1,172 @@
+# ==========================================================
+#              HYROCOSMETICS - WINGS (SAYAP 3D)
+# ==========================================================
+
+cosmetics:
+  angel_wings:
+    type: WINGS
+    display_name: "&b&lSayap Malaikat Suci"
+    material: "PAPER"
+    custom_model_data: 9000
+    itemsadder_item: "ax_wings_pack:angel_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sepasang sayap bulu putih suci"
+      - "&7yang memancarkan aura ketenangan."
+    price: 10000.0
+    permission: "hyrocosmetics.wings.angel"
+
+  astronaut_wings:
+    type: WINGS
+    display_name: "&b&lSayap Astronaut Kosmis"
+    material: "PAPER"
+    custom_model_data: 9001
+    itemsadder_item: "ax_wings_pack:astronaut_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap pendorong berteknologi antariksa"
+      - "&7dengan panel surya dan nozzle plasma."
+    price: 14000.0
+    permission: "hyrocosmetics.wings.astronaut"
+
+  bluefire_wings:
+    type: WINGS
+    display_name: "&b&lSayap Api Biru Mistik"
+    material: "PAPER"
+    custom_model_data: 9002
+    itemsadder_item: "ax_wings_pack:bluefire_wings"
+    display_transform: "FIXED"
+    scale: 1.1
+    lore:
+      - "&7Kobaran api biru dingin abadi yang"
+      - "&7membakar anggun di belakang Anda."
+    price: 15000.0
+    permission: "hyrocosmetics.wings.bluefire"
+
+  brown_wings:
+    type: WINGS
+    display_name: "&b&lSayap Elang Cokelat"
+    material: "PAPER"
+    custom_model_data: 9003
+    itemsadder_item: "ax_wings_pack:brown_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap bulu elang cokelat perkasa"
+      - "&7penguasa langit rimba belantara."
+    price: 9500.0
+    permission: "hyrocosmetics.wings.brown"
+
+  butterfly_wings:
+    type: WINGS
+    display_name: "&7&lSayap Kupu-Kupu Indah"
+    material: "PAPER"
+    custom_model_data: 9004
+    itemsadder_item: "ax_wings_pack:butterfly_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap kupu-kupu raksasa dengan corak"
+      - "&7warna gradasi pink ungu mempesona."
+    price: 11000.0
+    permission: "hyrocosmetics.wings.butterfly"
+
+  demon_wings:
+    type: WINGS
+    display_name: "&c&lSayap Iblis Nether"
+    material: "PAPER"
+    custom_model_data: 9005
+    itemsadder_item: "ax_wings_pack:demon_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap membran naga iblis merah darah"
+      - "&7dengan cakar tajam di ujungnya."
+    price: 16000.0
+    permission: "hyrocosmetics.wings.demon"
+
+  dragon_wings:
+    type: WINGS
+    display_name: "&9&lSayap Naga Ender"
+    material: "PAPER"
+    custom_model_data: 9006
+    itemsadder_item: "ax_wings_pack:dragon_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap penguasa dimensi The End"
+      - "&7dengan tekstur sisik naga legendaris."
+    price: 18000.0
+    permission: "hyrocosmetics.wings.dragon"
+
+  eagle_wings:
+    type: WINGS
+    display_name: "&6&lSayap Rajawali Emas"
+    material: "PAPER"
+    custom_model_data: 9007
+    itemsadder_item: "ax_wings_pack:eagle_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap rajawali agung penjelajah"
+      - "&7angkasa dengan bentang sayap lebar."
+    price: 13500.0
+    permission: "hyrocosmetics.wings.eagle"
+
+  golden_wings:
+    type: WINGS
+    display_name: "&e&lSayap Emas Kemuliaan"
+    material: "PAPER"
+    custom_model_data: 9008
+    itemsadder_item: "ax_wings_pack:golden_wings"
+    display_transform: "FIXED"
+    scale: 1.1
+    lore:
+      - "&7Sayap berlapis emas murni berkilau"
+      - "&7lambang kejayaan para kaisar."
+    price: 20000.0
+    permission: "hyrocosmetics.wings.golden"
+
+  ocean_wings:
+    type: WINGS
+    display_name: "&b&lSayap Samudra Laut Dalam"
+    material: "PAPER"
+    custom_model_data: 9009
+    itemsadder_item: "ax_wings_pack:ocean_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap bercahaya dari kedalaman samudra"
+      - "&7berkilau biru toska bagai ombak lautan."
+    price: 17000.0
+    permission: "hyrocosmetics.wings.ocean"
+
+  purple_wings:
+    type: WINGS
+    display_name: "&9&lSayap Amethyst Ungu"
+    material: "PAPER"
+    custom_model_data: 9010
+    itemsadder_item: "ax_wings_pack:purple_wings"
+    display_transform: "FIXED"
+    scale: 1.2
+    lore:
+      - "&7Sayap kristal amethyst ungu mempesona"
+      - "&7dengan kilau permata bangsawan."
+    price: 16500.0
+    permission: "hyrocosmetics.wings.purple"
+
+  phoenix_wings:
+    type: WINGS
+    display_name: "&c&lSayap Burung Phoenix"
+    material: "PAPER"
+    custom_model_data: 9011
+    itemsadder_item: "ax_wings_pack:phoenix_wings"
+    display_transform: "FIXED"
+    scale: 1.1
+    lore:
+      - "&7Sayap burung api legendaris yang bangkit"
+      - "&7kembali dari abu pembakaran abadi."
+    price: 22000.0
+    permission: "hyrocosmetics.wings.phoenix"

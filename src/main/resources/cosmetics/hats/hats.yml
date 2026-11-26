@@ -1,0 +1,152 @@
+# ==========================================================
+#              HYROCOSMETICS - HATS (TOPI & HELM)
+# ==========================================================
+
+cosmetics:
+  samurai_hat:
+    type: HAT
+    display_name: "&c&lTopi Samurai"
+    material: "TURTLE_HELMET"
+    lore:
+      - "&7Topi pelindung prajurit samurai"
+      - "&7dengan ornamen kehormatan."
+    price: 1500.0
+    permission: "hyrocosmetics.hat.samurai"
+
+  crown:
+    type: HAT
+    display_name: "&6&lMahkota Raja Emas"
+    material: "GOLDEN_HELMET"
+    lore:
+      - "&7Mahkota emas berkilauan bertahtakan"
+      - "&7permata rubi untuk penguasa sejati."
+    price: 5000.0
+    permission: "hyrocosmetics.hat.crown"
+
+  cyber_mask:
+    type: HAT
+    display_name: "&b&lTopeng Cyberpunk"
+    material: "DIAMOND_HELMET"
+    lore:
+      - "&7Topeng hologram futuristik dengan"
+      - "&7lampu neon LED cyan menyala."
+    price: 2500.0
+    permission: "hyrocosmetics.hat.cyber"
+
+  # --- MODEL 3D KUSTOM (CustomModelData & ItemsAdder/Oraxen) ---
+  chicken_hat:
+    type: HAT
+    display_name: "&6&lTopi Ayam Lucu 3D"
+    material: "PAPER"
+    custom_model_data: 10001
+    itemsadder_item: "ax_free_hats_pack:chicken_hat"
+    lore:
+      - "&7Topi 3D ayam menggemaskan yang"
+      - "&7menengok lucu di atas kepala Anda."
+      - "&8Model: chicken_hat.json"
+    price: 2000.0
+    permission: "hyrocosmetics.hat.chicken"
+
+  diving_helmet:
+    type: HAT
+    display_name: "&b&lHelm Selam Samudra 3D"
+    material: "PAPER"
+    custom_model_data: 10000
+    itemsadder_item: "ax_free_hats_pack:diving_helmet"
+    lore:
+      - "&7Helm selam kuno berbahan tembaga"
+      - "&7pelindung penyelam laut dalam."
+      - "&8Model: diving_helmet.json"
+    price: 3500.0
+    permission: "hyrocosmetics.hat.diving"
+
+  flight_hat:
+    type: HAT
+    display_name: "&c&lTopi Penerbang Aviator 3D"
+    material: "PAPER"
+    custom_model_data: 10002
+    itemsadder_item: "ax_free_hats_pack:flight_hat"
+    lore:
+      - "&7Topi kulit pilot pesawat vintage"
+      - "&7lengkap dengan kacamata goggle."
+      - "&8Model: flight_hat.json"
+    price: 3000.0
+    permission: "hyrocosmetics.hat.flight"
+
+  military_helmet:
+    type: HAT
+    display_name: "&a&lHelm Tempur Taktis 3D"
+    material: "PAPER"
+    custom_model_data: 10003
+    itemsadder_item: "ax_free_hats_pack:military_helmet"
+    lore:
+      - "&7Helm pelindung baja militer dengan"
+      - "&7lapisan kamuflase hutan rimba."
+      - "&8Model: military_helmet.json"
+    price: 3200.0
+    permission: "hyrocosmetics.hat.military"
+
+  motorcycle_helmet:
+    type: HAT
+    display_name: "&c&lHelm Motor Racing 3D"
+    material: "PAPER"
+    custom_model_data: 10004
+    itemsadder_item: "ax_free_hats_pack:motorcycle_helmet"
+    lore:
+      - "&7Helm full-face balap jalanan dengan"
+      - "&7kaca visor gelap anti-silau."
+      - "&8Model: motorcycle_helmet.json"
+    price: 4000.0
+    permission: "hyrocosmetics.hat.motorcycle"
+
+  pot_hat:
+    type: HAT
+    display_name: "&b&lTopi Panci Koki Unik 3D"
+    material: "PAPER"
+    custom_model_data: 10005
+    itemsadder_item: "ax_free_hats_pack:pot_hat"
+    lore:
+      - "&7Panci rebusan yang dipakai terbalik"
+      - "&7sebagai helm petualang jenaka."
+      - "&8Model: pot_hat.json"
+    price: 1800.0
+    permission: "hyrocosmetics.hat.pot"
+
+  ethereal_witch_hat:
+    type: HAT
+    display_name: "&9&lTopi Penyihir Astral 3D"
+    material: "PAPER"
+    custom_model_data: 11001
+    itemsadder_item: "witch_pack:ethereal_witch_hat"
+    lore:
+      - "&7Topi kerucut sihir ungu bercahaya"
+      - "&7dengan aura bintang kosmis misterius."
+      - "&8Model: ethereal_witch_hat.json"
+    price: 5500.0
+    permission: "hyrocosmetics.hat.witch"
+
+  cow_ears_hat:
+    type: HAT
+    display_name: "&b&lBando Telinga Sapi Imut 3D"
+    material: "PAPER"
+    custom_model_data: 9926592
+    itemsadder_item: "ero_feral_fantasy_set_v2:cow_ears_hat"
+    lore:
+      - "&7Bando telinga sapi putih lembut"
+      - "&7yang sangat menggemaskan."
+      - "&8Model: cow_ears_hat.json"
+    price: 2500.0
+    permission: "hyrocosmetics.hat.cow_ears"
+
+  deer_ears_hat:
+    type: HAT
+    display_name: "&6&lTelinga Rusa Rimba Peri 3D"
+    material: "PAPER"
+    custom_model_data: 9926595
+    itemsadder_item: "ero_feral_fantasy_set_v2:deer_ears_hat"
+    lore:
+      - "&7Telinga rusa mungil penghuni"
+      - "&7hutan mistis negeri dongeng."
+      - "&8Model: deer_ears_hat.json"
+    price: 2800.0
+    permission: "hyrocosmetics.hat.deer_ears"

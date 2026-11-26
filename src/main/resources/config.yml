@@ -1,0 +1,100 @@
+# ==========================================================
+#               HYROCOSMETICS CONFIGURATION
+#    Advanced 3D Cosmetics Engine (CosmeticCore Style)
+# ==========================================================
+
+prefix: "&6&lHyroCosmetics &8» "
+
+database:
+  file: "cosmetics.db"
+
+rendering:
+  # Position update frequency (ticks: 1 = ultra smooth 20 FPS tracking)
+  update-ticks: 1
+  # Hide 3D cosmetics when player is under Invisibility potion effect
+  hide-when-invisible: true
+  # Hide 3D cosmetics when player enters Spectator mode
+  hide-when-spectator: true
+  # Mode tampilan kosmetik ke diri sendiri:
+  # - "auto" : OTOMATIS (Direkomendasikan)! Kosmetik otomatis terlihat di mode F5, dan otomatis disembunyikan saat menunduk di first-person agar layar bersih.
+  # - "true" : Selalu sembunyikan dari diri sendiri di semua sudut kamera.
+  # - "false": Selalu tampilkan ke diri sendiri.
+  hide-from-self: "auto"
+
+  # Batas sudut kemiringan kepala (pitch) ke bawah untuk otomatis menyembunyikan kosmetik dari layar first-person (derajat: 25 - 35)
+  look-down-hide-pitch: 30.0
+
+  # Mode tampilan item tangan: "OFF_HAND" (dipegang natural di tangan kiri) atau "DISPLAY" (melayang di pinggang)
+  hand-mode: "OFF_HAND"
+
+  # Mode tampilan topi/head: "EQUIPMENT" (terpasang natural di kepala, 100% sinkron pitch & yaw) atau "DISPLAY" (Display Entity)
+  hat-mode: "EQUIPMENT"
+
+  # 3D Model Coordinate Offsets (relative to player feet at Y=0)
+  offsets:
+    hat:
+      y: 1.82
+      sneak-y: 1.48
+      scale: 1.0
+      rotation-y: 0 # Rotasi tambahan model (derajat) di atas orientasi kepala player
+      rotation-sneak-y: 0
+    backpack:
+      # Posisi relatif dari kaki player untuk renderer body-yaw.
+      y: 0.92
+      sneak-y: 0.72
+      distance: 0.18
+      sneak-distance: 0.22
+      passenger-x: 0.0
+      passenger-sneak-x: 0.0
+      passenger-y: -0.68 # Ketinggian tas di punggung
+      passenger-sneak-y: -0.58
+      passenger-z: -0.20 # Jarak menempel pas di punggung (aman dari kamera)
+      passenger-sneak-z: -0.24
+      scale: 0.70
+      rotation-y: 180 # 180 = model menghadap ke badan player (punggung terlihat dari luar)
+      rotation-sneak-y: 180
+      rotation-z: 0
+      rotation-sneak-z: 0
+      rotation-x: 0
+      rotation-sneak-x: -25.0 # Miring ke depan saat sneak mengikuti badan
+    wings:
+      # Sayap menempel pada torso/punggung, bukan kepala.
+      y: 0.58
+      sneak-y: 0.46
+      distance: 0.20
+      passenger-x: 0.0
+      passenger-sneak-x: 0.0
+      passenger-y: -0.68 # Ketinggian sayap di punggung atas / tulang belikat (di bawah garis mata)
+      passenger-sneak-y: -0.58 # Ketinggian saat menunduk (sneak)
+      passenger-z: -0.22 # Jarak menempel pas di punggung (di belakang kamera pandangan mata)
+      passenger-sneak-z: -0.25 # Jarak ke belakang saat sneak
+      scale: 1.05 # Ukuran rentang sayap proporsional
+      rotation-y: 0 # 0 = model sayap menghadap depan, nozzle & sayap membentang ke belakang
+      rotation-sneak-y: 0 # Tetap lurus ke belakang saat sneak
+      rotation-z: 0
+      rotation-sneak-z: 0
+      rotation-x: 0
+      rotation-sneak-x: -25.0 # Miring ke depan saat sneak mengikuti badan
+    hand:
+      y: 0.95
+      sneak-y: 0.70
+      distance: 0.38
+      rotation-y: 0 # Rotasi tambahan model item tangan
+      rotation-sneak-y: 0
+    balloon:
+      y: 2.15
+      sneak-y: 1.85
+      distance: 0.45
+      rotation-y: 0 # Rotasi tambahan model balon
+      rotation-sneak-y: 0
+
+messages:
+  no-permission: "&4Anda tidak memiliki izin untuk menggunakan perintah ini!"
+  player-only: "&4Perintah ini hanya dapat dijalankan oleh pemain in-game!"
+  equipped: "&2Berhasil memakai kosmetik: &f%cosmetic%&e!"
+  unequipped: "&eKosmetik &f%cosmetic%&e telah dilepas."
+  unequipped-all: "&eSemua kosmetik yang sedang Anda pakai telah dilepas."
+  unlocked-needed: "&4Kosmetik ini terkunci! Beli terlebih dahulu atau tingkatkan rank Anda."
+  bought-success: "&2Selamat! Anda berhasil membeli &f%cosmetic%&e seharga &6$%price%&e!"
+  not-enough-money: "&4Saldo Anda tidak cukup! Anda memerlukan &6$%price%&e."
+  reload-success: "&2Konfigurasi & katalog HyroCosmetics berhasil dimuat ulang!"

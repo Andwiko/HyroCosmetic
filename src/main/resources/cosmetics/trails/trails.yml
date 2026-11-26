@@ -1,0 +1,104 @@
+# ==========================================================
+#         HYROCOSMETICS - TRAILS (PARTICLE TRAILS AURA)
+# ==========================================================
+
+cosmetics:
+  flame_trail:
+    type: TRAIL
+    display_name: "&c&lJejak Api Neraka"
+    material: "BLAZE_POWDER"
+    particle_type: "FLAME"
+    lore:
+      - "&7Aura kobaran api yang mengikuti setiap"
+      - "&7gerakan langkah Anda."
+    price: 2000.0
+    permission: "hyrocosmetics.trail.flame"
+
+  angel_sparkles:
+    type: TRAIL
+    display_name: "&6&lKilau Bintang Suci"
+    material: "GLOWSTONE_DUST"
+    particle_type: "TOTEM_OF_UNDYING"
+    lore:
+      - "&7Percikan cahaya keemasan suci"
+      - "&7yang jatuh lembut dari tubuh Anda."
+    price: 3000.0
+    permission: "hyrocosmetics.trail.sparkle"
+
+  electric_speed:
+    type: TRAIL
+    display_name: "&b&lPercikan Kilat Petir"
+    material: "LIGHTNING_ROD"
+    particle_type: "ELECTRIC_SPARK"
+    lore:
+      - "&7Muatan arus listrik biru yang"
+      - "&7menyambar di sekeliling kaki Anda."
+    price: 3500.0
+    permission: "hyrocosmetics.trail.electric"
+
+  heart_trail:
+    type: TRAIL
+    display_name: "&c&lJejak Kasih Sayang"
+    material: "POPPY"
+    particle_type: "HEART"
+    lore:
+      - "&7Tebarkan partikel hati merah merekah"
+      - "&7di mana pun Anda berjalan."
+    price: 2500.0
+    permission: "hyrocosmetics.trail.heart"
+
+  soul_trail:
+    type: TRAIL
+    display_name: "&b&lJejak Jiwa Mistis"
+    material: "SOUL_TORCH"
+    particle_type: "SOUL_FIRE_FLAME"
+    lore:
+      - "&7Api biru roh halus melayang mengiringi"
+      - "&7setiap gerak-gerik langkah kaki Anda."
+    price: 3500.0
+    permission: "hyrocosmetics.trail.soul"
+
+  # --- Modern 1.21+ Particle Trails ---
+  breeze_gust_trail:
+    type: TRAIL
+    display_name: "&f&lPusaran Badai Breeze"
+    material: "FEATHER"
+    particle_type: "GUST"
+    lore:
+      - "&7Pusaran angin badai khas mob Breeze 1.21"
+      - "&7yang melingkari langkah kaki Anda."
+    price: 4500.0
+    permission: "hyrocosmetics.trail.breeze"
+
+  trial_omen_aura:
+    type: TRAIL
+    display_name: "&5&lAura Mistis Trial Omen"
+    material: "POTION"
+    particle_type: "OMINOUS_SPAWNING"
+    lore:
+      - "&7Kobaran api ungu tengkorak Ominous 1.21"
+      - "&7dari kedalaman Trial Chamber kuno."
+    price: 5500.0
+    permission: "hyrocosmetics.trail.trialomen"
+
+  cherry_blossom_trail:
+    type: TRAIL
+    display_name: "&d&lGuguran Bunga Sakura"
+    material: "CHERRY_SAPLING"
+    particle_type: "CHERRY_LEAVES"
+    lore:
+      - "&7Kelopak bunga sakura merah muda merekah"
+      - "&7yang berguguran indah saat Anda melangkah."
+    price: 4000.0
+    permission: "hyrocosmetics.trail.cherry"
+
+  vault_connection_aura:
+    type: TRAIL
+    display_name: "&6&lPancaran Energi Vault"
+    material: "TRIPWIRE_HOOK"
+    particle_type: "VAULT_CONNECTION"
+    lore:
+      - "&7Garis rune emas mistis dari peti Vault 1.21"
+      - "&7yang mengalir menyelimuti tubuh Anda."
+    price: 6000.0
+    permission: "hyrocosmetics.trail.vault"

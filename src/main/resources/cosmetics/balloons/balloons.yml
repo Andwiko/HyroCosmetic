@@ -1,0 +1,119 @@
+# ==========================================================
+#              HYROCOSMETICS - BALLOONS (BALON)
+# ==========================================================
+
+cosmetics:
+  heart_balloon:
+    type: BALLOON
+    display_name: "&c&lBalon Cinta Hati"
+    material: "RED_DYE"
+    lore:
+      - "&7Balon terbang berbentuk hati merah"
+      - "&7merona yang melayang di samping Anda."
+    price: 2000.0
+    permission: "hyrocosmetics.balloon.heart"
+
+  creeper_balloon:
+    type: BALLOON
+    display_name: "&3&lBalon Creeper Hijau"
+    material: "SLIME_BALL"
+    lore:
+      - "&7Balon helium ramah bergambar wajah"
+      - "&7creeper yang dijamin tidak akan meledak."
+    price: 2500.0
+    permission: "hyrocosmetics.balloon.creeper"
+
+  solar_balloon:
+    type: BALLOON
+    display_name: "&c&lBalon Surya Mini"
+    material: "GLOWSTONE_DUST"
+    lore:
+      - "&7Miniatur matahari berpijar hangat"
+      - "&7yang setia menemani setiap petualangan."
+    price: 3500.0
+    permission: "hyrocosmetics.balloon.solar"
+
+  # --- MODEL 3D KUSTOM (CustomModelData FarmBloons) ---
+  balloon_bison:
+    type: BALLOON
+    display_name: "&b&lBalon Bison Perkasa 3D"
+    material: "BRICK"
+    custom_model_data: 77
+    lore:
+      - "&7Balon helium 3D bermotif kepala bison"
+      - "&7padang rumput berbulu lebat."
+      - "&8Model: bs_balloon_bison.json"
+    price: 4000.0
+    permission: "hyrocosmetics.balloon.bison"
+
+  balloon_caterpillar:
+    type: BALLOON
+    display_name: "&a&lBalon Ulat Lucu 3D"
+    material: "BRICK"
+    custom_model_data: 78
+    lore:
+      - "&7Balon ulat hijau manis yang meliuk"
+      - "&7lucu menemani petualangan Anda."
+      - "&8Model: bs_balloon_caterpillar.json"
+    price: 4200.0
+    permission: "hyrocosmetics.balloon.caterpillar"
+
+  balloon_fox:
+    type: BALLOON
+    display_name: "&6&lBalon Rubah Oranye 3D"
+    material: "BRICK"
+    custom_model_data: 79
+    lore:
+      - "&7Balon mengambang imut berbentuk rubah"
+      - "&7oranye dengan ekor bergoyang."
+      - "&8Model: bs_balloon_fox.json"
+    price: 4500.0
+    permission: "hyrocosmetics.balloon.fox"
+
+  balloon_ladybug:
+    type: BALLOON
+    display_name: "&c&lBalon Kumbang Totol 3D"
+    material: "BRICK"
+    custom_model_data: 80
+    lore:
+      - "&7Balon kumbang merah bertotol hitam"
+      - "&7yang terbang anggun di sisi tubuh."
+      - "&8Model: bs_balloon_ladybug.json"
+    price: 3800.0
+    permission: "hyrocosmetics.balloon.ladybug"
+
+  balloon_peacock:
+    type: BALLOON
+    display_name: "&b&lBalon Merak Cantik 3D"
+    material: "BRICK"
+    custom_model_data: 81
+    lore:
+      - "&7Balon burung merak biru toska dengan"
+      - "&7detail bulu ekor yang merekah indah."
+      - "&8Model: bs_balloon_peacock.json"
+    price: 5000.0
+    permission: "hyrocosmetics.balloon.peacock"
+
+  balloon_shepard:
+    type: BALLOON
+    display_name: "&6&lBalon Anjing Gembala 3D"
+    material: "BRICK"
+    custom_model_data: 82
+    lore:
+      - "&7Balon sahabat setia anjing herder"
+      - "&7yang mengawasi setiap langkah Anda."
+      - "&8Model: bs_balloon_shepard_dog.json"
+    price: 4200.0
+    permission: "hyrocosmetics.balloon.shepard"
+
+  balloon_sniffer:
+    type: BALLOON
+    display_name: "&a&lBalon Sniffer Purba 3D"
+    material: "BRICK"
+    custom_model_data: 83
+    lore:
+      - "&7Balon makhluk purbakala sniffer lumut"
+      - "&7yang damai dan membawa keberuntungan."
+      - "&8Model: bs_balloon_sniffer.json"
+    price: 5500.0
+    permission: "hyrocosmetics.balloon.sniffer"
